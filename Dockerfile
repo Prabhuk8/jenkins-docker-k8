@@ -1,4 +1,4 @@
 FROM openjdk:8
 EXPOSE 8080
-ADD target/devops-integration.jar devops-integration.jar
-ENTRYPOINT ["java","-jar","/devops-integration.jar"]
+ADD target/app-image-create.jar app-image-create.jar
+ENTRYPOINT ["java","-jar","/app-image-create.jar"]
